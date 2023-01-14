@@ -4,10 +4,7 @@
 }
 
 .header{
-    width: 100%;
-    height: 100vh;
     background: rgba(255, 144, 14, 0.1);
-    position: absolute;
 }
 
 .nav{
@@ -25,6 +22,7 @@
 
 .nav-bar-item{
     display: flex;
+    gap: 24px;
     justify-content: space-evenly;
     font-weight: 500;
     font-size: 18px;
@@ -33,12 +31,9 @@
 }
 
 /* header banner */
-.banner{
-    align-items: center;
-}
-
 .banner-descriptions{
-    margin:116px 500px;
+    text-align: center;
+    margin:5px 450px;
 }
 
 .banner-heading{
@@ -51,14 +46,66 @@
     font-weight: 400;
     font-size: 16px;
     color: #727272;
+    margin-top: 32px;
+    margin-bottom: 32px;
 }
 
-.banner-btn{
-
+.btn{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(246, 120, 16);
 }
 
 .banner-img{
-    color: rebeccapurple;
-    width: 1440px;
-    height: 700px;
+    margin: 50px 150px ;
+    width: 1200px;
+    height: 550px;
+}
+
+/* teams section */
+.teams-intro{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 70px 200px;
+}
+
+.teams{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-right: 73px;
+}
+
+.teams-descriptions{
+    margin-top: 300px;
+}
+
+.teams-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.title1{
+    color: #727272;
+}
+
+.title2{
+    color: #131313;
+}
+
+.title3{
+    color: #FF900E;
+}
+
+.teams-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
