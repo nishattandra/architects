@@ -228,6 +228,55 @@
     background-color: bisque;
 }
 
+/* Extra section */
+.top-members{
+    margin:150px 200px;
+}
+
+.section-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.members-team{
+    margin-top: 50px;
+    width: 1100px;
+    height: 550px;
+    border-radius: 8px;
+}
+
+.members{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
+
+.members img{
+     width: 70px;
+     height: 70px;
+     border-radius: 50px;
+}
+
+.member{
+    display: flex;
+}
+
+.member-name{
+    margin-top: 25px;
+    margin-left: 16px;
+    font-size: 18px;
+    color: #131313;
+}
+
+hr{
+    margin-top: 50px;
+}
+
+.member:hover{
+    transform: scale(1.5);
+}
+
 /* sponsors section styles */
 .sponsors{
     text-align: center;
